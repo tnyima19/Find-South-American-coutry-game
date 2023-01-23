@@ -12,6 +12,10 @@ Game built using python, turtle and pandas.
 ### User Stories
 `TODO://` In the **User Stories section below**, add an `x` in the `-[ ]` like this `- [x]` for any user story you complete. (🚫 Remove this paragraph after checking off completed user stories)
 
+
+https://user-images.githubusercontent.com/66368294/213961627-0d9c396c-7ac7-4fc9-ba33-339214333ad8.mov
+
+
 #### REQUIRED (10pts)
 - [x] (2pts) name countries. 
 - [x] (5pts) mark the named countries
