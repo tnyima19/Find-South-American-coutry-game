@@ -5,6 +5,14 @@ import pandas as pd
 def get_moouse_click_coor(x,y):
     print(x,y)
 
+def printMissingCountries(missing_countries, data):
+    for country in missing_countries:
+        t= turtle.Turtle()
+        t.penup()
+        missing_country_location = data[data.countries == country]
+        t.goto(int(missing_country_location.x), int(missing_country_location.y))
+        t.write(country)
+        
 
 def check_if_country_exists(name_of_country, list_of_countries, named_countries, data):
     #print(data)
@@ -54,7 +62,9 @@ def main():
 
     #States to learn 
     missing_countries = missedStates(list_of_countries, named_countries, missing_countries)
+    printMissingCountries(missing_countries, data)
     print(missing_countries)
+    
     screen.exitonclick()
     return 0
 
